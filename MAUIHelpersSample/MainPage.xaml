@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIHelpersSample.MainPage">
+
+    <StackLayout>
+        <ListView HasUnevenRows="true"
+                  SeparatorVisibility="Default" 
+                  ItemsSource="{Binding Todos}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell x:Name="SelectableCell">
+
+                        <StackLayout Orientation="Vertical" Padding="20,0,20,0">
+                            <Label Text="Task:" FontSize="20" FontAttributes="Bold" ></Label>
+                            <Label Text="{Binding Title}" FontSize="17" ></Label>
+                        </StackLayout>
+
+                    </ViewCell>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
