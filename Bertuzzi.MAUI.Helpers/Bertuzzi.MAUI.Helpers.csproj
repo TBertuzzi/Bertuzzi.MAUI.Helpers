@@ -15,6 +15,20 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+
+		<Authors>tbertuzzi</Authors>
+		<Company>KBits</Company>
+		<Description>Extensions for HttpClient, Tasks and objects. Helpers to manipulate images</Description>
+		<Copyright>Copyright ©2022 tbertuzzi</Copyright>
+		<PackageLicenseUrl>http://opensource.org/licenses/MS-PL</PackageLicenseUrl>
+		<PackageProjectUrl>https://github.com/TBertuzzi/Bertuzzi.MAUI.Helpers</PackageProjectUrl>
+		<PackageIconUrl>https://github.com/TBertuzzi/Bertuzzi.MAUI.Helpers/blob/master/Resources/icon.png?raw=true</PackageIconUrl>
+		<RepositoryUrl>https://github.com/TBertuzzi/Bertuzzi.MAUI.Helpers</RepositoryUrl>
+		<PackageReleaseNotes>Change HttpExtension for nuget package with mediatype</PackageReleaseNotes>
+		<PackageTags>maui helpers httpclient rest image cast</PackageTags>
+		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		
 	</PropertyGroup>
 
 	<ItemGroup>
