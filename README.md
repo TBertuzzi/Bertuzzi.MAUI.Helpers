@@ -126,3 +126,5 @@ public static byte[] ConvertToByteArray(Stream stream);
 ```
 
 The complete example can be downloaded here: <https://github.com/TBertuzzi/Bertuzzi.MAUI.Helpers/tree/master/MAUIHelpersSample>
+
+based on my package : https://github.com/TBertuzzi/Xamarin.Helpers
