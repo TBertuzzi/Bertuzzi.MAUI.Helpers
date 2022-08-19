@@ -8,7 +8,7 @@ Extensions for HttpClient, Objects, Tasks and image manipulation.
 
 |Name|Info|
 | ------------------- | :------------------: |
-|Bertuzzi.MAUI.Helpers|[![NuGet](https://img.shields.io/badge/nuget-1.0.4-blue.svg)](https://www.nuget.org/packages/Bertuzzi.MAUI.Helpers/)|
+|Bertuzzi.MAUI.Helpers|[![NuGet](https://img.shields.io/badge/nuget-1.0.0-blue.svg)](https://www.nuget.org/packages/Bertuzzi.MAUI.Helpers/)|
 
  **Platform Support**
 
